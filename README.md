@@ -1,14 +1,11 @@
 # console-java-simple
 
-A simple java "Hello World!" application, buildable with both maven and gradle. Useful for testing Eclipse Che Java workspaces.
-
+A simple java "Hello World!" application, buildable with gradle. Useful for testing Eclipse Che Java workspaces.
 
 # Building manually
 
 |        | Task  | Command                    |
 | ------ | ----- | -------------------------- |
-| Maven  | Build | `mvn clean install`        |
-|        | Run   | `java -jar ./target/*.jar` |
 | Gradle | Build | `gradle build`             |
 |        | Run   | `gradle run`               |
 
